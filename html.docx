@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cherry Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cherry Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#newsletter">Newsletter</a></li>
+                <li><a href="#socials">Socials</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Cherry Blog!</h2>
+        <p>Your cozy corner for lifestyle, fashion, and beauty tips. Grab a cup of tea and enjoy the read!</p>
+        <img src="cozy-image.jpg" alt="Cozy image" class="home-img">
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Cherry Blog brings you a blend of fun and cozy vibes, focusing on fashion, beauty, and lifestyle. Whether you're catching up on trends or looking for everyday inspiration, we're here for you.</p>
+    </section>
+
+    <section id="articles">
+        <h2>Featured Articles</h2>
+        <div class="article-list">
+            <article>
+                <h3>Latest Fashion Trends</h3>
+                <img src="fashion-trend.jpg" alt="Fashion trends" class="article-img">
+                <p>Discover what's hot on the runway this season.</p>
+                <a href="#">Read more</a>
+            </article>
+            <article>
+                <h3>Cozy Home Décor Ideas</h3>
+                <img src="home-decor.jpg" alt="Home decor" class="article-img">
+                <p>Transform your home into a haven with these simple ideas.</p>
+                <a href="#">Read more</a>
+            </article>
+        </div>
+    </section>
+
+    <section id="newsletter">
+        <h2>Subscribe to our Newsletter</h2>
+        <p>Get the latest updates on fashion, beauty, and lifestyle delivered to your inbox!</p>
+        <form id="newsletter-form">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <section id="socials">
+        <h2>Follow us on Social Media</h2>
+        <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">YouTube</a></li>
+        </ul>
+    </section>
+
+    <section id="videos">
+        <h2>Watch Our Latest Video</h2>
+        <video controls width="600">
+            <source src="latest-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cherry Blog. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
